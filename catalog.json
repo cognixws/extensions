@@ -6,8 +6,30 @@
     "description": "See and manage your Docker containers, grouped by compose project, from PiCode.",
     "repo": "https://github.com/cognixws/picode-docker",
     "ref": "v0.2.4",
-    "tags": ["docker", "containers", "compose"],
+    "tags": [
+      "docker",
+      "containers",
+      "compose"
+    ],
     "icon": "icons/docker.png",
+    "tier": "first-party",
+    "pricing": "free"
+  },
+  {
+    "id": "picode-backup-rclone",
+    "name": "More storage (rclone)",
+    "publisher": "COGNIX[WS]",
+    "description": "Keeps encrypted copies of your COGNIX[WS] backups in Dropbox, OneDrive, an SFTP server or WebDAV through rclone.",
+    "repo": "https://github.com/cognixws/picode-backup-rclone",
+    "ref": "v0.1.1",
+    "tags": [
+      "backup",
+      "storage",
+      "rclone",
+      "dropbox",
+      "webdav"
+    ],
+    "icon": "icons/picode-backup-rclone.svg",
     "tier": "first-party",
     "pricing": "free"
   }
