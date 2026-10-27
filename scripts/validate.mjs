@@ -52,7 +52,7 @@ for (const [i, e] of catalog.entries()) {
     fail(`${at}: entry must be an object`);
     continue;
   }
-  const req = ["id", "name", "publisher", "description", "repo", "ref", "icon", "tier", "pricing"];
+  const req = ["id", "name", "publisher", "description", "repo", "ref", "tier", "pricing"];
   for (const k of req) {
     if (typeof e[k] !== "string" || !e[k].trim()) fail(`${at}: "${k}" is required`);
   }
@@ -89,13 +89,16 @@ for (const [i, e] of catalog.entries()) {
   }
   if (e.pricing !== "free") fail(`${at}: pricing must be "free" in v1 (paid extensions come in v2)`);
 
-  const iconPath = join(root, e.icon || "");
-  if (!iconPath.startsWith(join(root, "icons") + "/")) {
-    fail(`${at}: icon must live under icons/`);
-  } else if (!existsSync(iconPath) || !statSync(iconPath).isFile()) {
-    fail(`${at}: icon "${e.icon}" does not exist in this repository`);
-  } else if (statSync(iconPath).size > 20 * 1024) {
-    fail(`${at}: icon "${e.icon}" is larger than 20 KB`);
+  // Icon is optional: a card without one renders the extension's initials.
+  if (e.icon !== undefined) {
+    const iconPath = join(root, e.icon || "");
+    if (!iconPath.startsWith(join(root, "icons") + "/")) {
+      fail(`${at}: icon must live under icons/`);
+    } else if (!existsSync(iconPath) || !statSync(iconPath).isFile()) {
+      fail(`${at}: icon "${e.icon}" does not exist in this repository`);
+    } else if (statSync(iconPath).size > 20 * 1024) {
+      fail(`${at}: icon "${e.icon}" is larger than 20 KB`);
+    }
   }
 }
 
