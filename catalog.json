@@ -48,5 +48,22 @@
     "icon": "icons/picode-backup-gdrive.svg",
     "tier": "first-party",
     "pricing": "free"
+  },
+  {
+    "id": "picode-backup-s3",
+    "name": "S3-compatible storage",
+    "publisher": "COGNIX[WS]",
+    "description": "Keeps encrypted copies of your COGNIX[WS] backups in an S3 bucket: R2, B2, Wasabi, MinIO, AWS S3 or any S3-compatible storage.",
+    "repo": "https://github.com/cognixws/picode-backup-s3",
+    "ref": "v0.1.0",
+    "tags": [
+      "backup",
+      "storage",
+      "s3",
+      "r2",
+      "b2"
+    ],
+    "tier": "first-party",
+    "pricing": "free"
   }
 ]
