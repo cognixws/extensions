@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": "docker",
+    "name": "Docker",
+    "publisher": "PiCode",
+    "description": "See and manage your Docker containers, grouped by compose project, from PiCode.",
+    "repo": "https://github.com/cognixws/picode-docker",
+    "ref": "v0.2.4",
+    "tags": ["docker", "containers", "compose"],
+    "icon": "icons/docker.png",
+    "tier": "first-party",
+    "pricing": "free"
+  }
+]
