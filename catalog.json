@@ -32,5 +32,21 @@
     "icon": "icons/picode-backup-rclone.svg",
     "tier": "first-party",
     "pricing": "free"
+  },
+  {
+    "id": "picode-backup-gdrive",
+    "name": "Google Drive",
+    "publisher": "COGNIX[WS]",
+    "description": "Keeps encrypted copies of your COGNIX[WS] backups in your Google Drive, in a “COGNIX[WS] backups” folder.",
+    "repo": "https://github.com/cognixws/picode-backup-gdrive",
+    "ref": "v0.1.0",
+    "tags": [
+      "backup",
+      "storage",
+      "google-drive"
+    ],
+    "icon": "icons/picode-backup-gdrive.svg",
+    "tier": "first-party",
+    "pricing": "free"
   }
 ]
