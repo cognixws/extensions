@@ -55,7 +55,7 @@
     "publisher": "COGNIX[WS]",
     "description": "Keeps encrypted copies of your COGNIX[WS] backups in an S3 bucket: R2, B2, Wasabi, MinIO, AWS S3 or any S3-compatible storage.",
     "repo": "https://github.com/cognixws/picode-backup-s3",
-    "ref": "v0.1.0",
+    "ref": "v0.1.1",
     "tags": [
       "backup",
       "storage",
@@ -121,7 +121,7 @@
     "publisher": "COGNIX[WS]",
     "description": "Outlook and Microsoft 365 adapter for the COGNIX[WS] Inbox.",
     "repo": "https://github.com/cognixws/picode-mail-microsoft",
-    "ref": "v0.2.0",
+    "ref": "v0.2.1",
     "tags": [
       "mail",
       "outlook",
