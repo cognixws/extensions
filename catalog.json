@@ -65,5 +65,236 @@
     ],
     "tier": "first-party",
     "pricing": "free"
+  },
+  {
+    "id": "google-calendar",
+    "name": "Google Calendar",
+    "publisher": "COGNIX[WS]",
+    "description": "Keeps your COGNIX[WS] Agenda in step with Google Calendar, both ways: events flow in with alerts, and Agenda changes go to Google.",
+    "repo": "https://github.com/cognixws/picode-google-calendar",
+    "ref": "v0.1.1",
+    "tags": [
+      "calendar",
+      "google",
+      "agenda"
+    ],
+    "tier": "first-party",
+    "pricing": "free",
+    "icon": "icons/google-calendar.svg"
+  },
+  {
+    "id": "telegram",
+    "name": "Telegram",
+    "publisher": "COGNIX[WS]",
+    "description": "Telegram channel for COGNIX[WS]: Inbox and agent Messages in one private chat.",
+    "repo": "https://github.com/cognixws/picode-telegram",
+    "ref": "v0.4.0",
+    "tags": [
+      "telegram",
+      "channel",
+      "chat"
+    ],
+    "tier": "first-party",
+    "pricing": "free",
+    "icon": "icons/telegram.svg"
+  },
+  {
+    "id": "picode-mail-google",
+    "name": "Google Mail",
+    "publisher": "COGNIX[WS]",
+    "description": "Google Mail and Workspace adapter for the COGNIX[WS] Inbox.",
+    "repo": "https://github.com/cognixws/picode-mail-google",
+    "ref": "v0.2.1",
+    "tags": [
+      "mail",
+      "google",
+      "inbox"
+    ],
+    "tier": "first-party",
+    "pricing": "free",
+    "icon": "icons/picode-mail-google.png"
+  },
+  {
+    "id": "picode-mail-microsoft",
+    "name": "Outlook and Microsoft 365",
+    "publisher": "COGNIX[WS]",
+    "description": "Outlook and Microsoft 365 adapter for the COGNIX[WS] Inbox.",
+    "repo": "https://github.com/cognixws/picode-mail-microsoft",
+    "ref": "v0.2.0",
+    "tags": [
+      "mail",
+      "outlook",
+      "inbox"
+    ],
+    "tier": "first-party",
+    "pricing": "free"
+  },
+  {
+    "id": "picode-tunnel-tailscale",
+    "name": "picode-tunnel-tailscale",
+    "publisher": "COGNIX[WS]",
+    "description": "Reach COGNIX[WS] from any network at this computer's Tailscale MagicDNS name.",
+    "repo": "https://github.com/cognixws/picode-tunnel-tailscale",
+    "ref": "v0.1.1",
+    "tags": [
+      "tunnel",
+      "remote",
+      "tailscale"
+    ],
+    "tier": "first-party",
+    "pricing": "free",
+    "icon": "icons/picode-tunnel-tailscale.svg"
+  },
+  {
+    "id": "picode-tunnel-cloudflare",
+    "name": "picode-tunnel-cloudflare",
+    "publisher": "COGNIX[WS]",
+    "description": "Reach COGNIX[WS] from any network through your own Cloudflare Tunnel address.",
+    "repo": "https://github.com/cognixws/picode-tunnel-cloudflare",
+    "ref": "v0.1.1",
+    "tags": [
+      "tunnel",
+      "remote",
+      "cloudflare"
+    ],
+    "tier": "first-party",
+    "pricing": "free",
+    "icon": "icons/picode-tunnel-cloudflare.png"
+  },
+  {
+    "id": "blender",
+    "name": "Blender",
+    "publisher": "COGNIX[WS]",
+    "description": "Model in Blender with your agents: they build the scene, render it and look at the result.",
+    "repo": "https://github.com/cognixws/picode-blender",
+    "ref": "v0.4.1",
+    "tags": [
+      "blender",
+      "3d"
+    ],
+    "tier": "first-party",
+    "pricing": "free",
+    "icon": "icons/blender.svg"
+  },
+  {
+    "id": "artcraft",
+    "name": "PhotoCraft & VectorCraft",
+    "publisher": "COGNIX[WS]",
+    "description": "Let your agents work in PhotoCraft and VectorCraft while you watch.",
+    "repo": "https://github.com/cognixws/picode-artcraft",
+    "ref": "v0.6.0",
+    "tags": [
+      "design",
+      "image"
+    ],
+    "tier": "first-party",
+    "pricing": "free",
+    "icon": "icons/artcraft.svg"
+  },
+  {
+    "id": "crawler",
+    "name": "Crawler",
+    "publisher": "COGNIX[WS]",
+    "description": "A small procedural creature that walks over a page while an agent works on it.",
+    "repo": "https://github.com/cognixws/picode-crawler",
+    "ref": "v0.1.3",
+    "tags": [
+      "web",
+      "agent"
+    ],
+    "tier": "first-party",
+    "pricing": "free",
+    "icon": "icons/crawler.svg"
+  },
+  {
+    "id": "wrapup",
+    "name": "Wrapup",
+    "publisher": "COGNIX[WS]",
+    "description": "Agents close a block of work with a status report in checks: done, caveat, pending with you.",
+    "repo": "https://github.com/cognixws/picode-wrapup",
+    "ref": "v0.1.1",
+    "tags": [
+      "reporting",
+      "agents"
+    ],
+    "tier": "first-party",
+    "pricing": "free",
+    "icon": "icons/wrapup.svg"
+  },
+  {
+    "id": "rea",
+    "name": "REA",
+    "publisher": "COGNIX[WS]",
+    "description": "Reverse engineer shipped apps with REA 6.1.0: Electron routes and IPC, APKs, .NET, native binaries. Static analysis only.",
+    "repo": "https://github.com/cognixws/picode-rea",
+    "ref": "v0.4.0",
+    "tags": [
+      "reverse-engineering",
+      "analysis"
+    ],
+    "tier": "first-party",
+    "pricing": "free",
+    "icon": "icons/rea.svg"
+  },
+  {
+    "id": "cloudflare-pages",
+    "name": "Cloudflare Pages",
+    "publisher": "COGNIX[WS]",
+    "description": "Publish artifact versions to Cloudflare Pages with public or email-restricted access, Web Analytics, update and restore.",
+    "repo": "https://github.com/cognixws/picode-cloudflare-pages",
+    "ref": "v0.4.1",
+    "tags": [
+      "publish",
+      "cloudflare",
+      "artifacts"
+    ],
+    "tier": "first-party",
+    "pricing": "free",
+    "icon": "icons/cloudflare-pages.png"
+  },
+  {
+    "id": "picode-decisions-local",
+    "name": "Local model fast decisions",
+    "publisher": "COGNIX[WS]",
+    "description": "Answers COGNIX[WS]'s fast decisions with a model on this computer (llama.cpp, Ollama, LM Studio). Nothing leaves this computer.",
+    "repo": "https://github.com/cognixws/picode-decisions-local",
+    "ref": "v0.1.0",
+    "tags": [
+      "local",
+      "llm",
+      "fast-decisions"
+    ],
+    "tier": "first-party",
+    "pricing": "free"
+  },
+  {
+    "id": "picode-decisions-jev",
+    "name": "Jev fast decisions",
+    "publisher": "COGNIX[WS]",
+    "description": "Answers COGNIX[WS]'s fast decisions with TypeSafe's Jev: locate a page element, yes/no questions. Sends page text and a screenshot.",
+    "repo": "https://github.com/cognixws/picode-decisions-jev",
+    "ref": "v0.1.1",
+    "tags": [
+      "fast-decisions",
+      "jev"
+    ],
+    "tier": "first-party",
+    "pricing": "free"
+  },
+  {
+    "id": "atlas",
+    "name": "Atlas",
+    "publisher": "COGNIX[WS]",
+    "description": "Photographs every screen of a web app, empty and with data, light and dark, as a gallery and an app map. First run downloads Chromium.",
+    "repo": "https://github.com/cognixws/picode-atlas",
+    "ref": "v0.1.1",
+    "tags": [
+      "qa",
+      "screenshots",
+      "gallery"
+    ],
+    "tier": "first-party",
+    "pricing": "free",
+    "icon": "icons/atlas.svg"
   }
 ]
