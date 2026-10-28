@@ -64,7 +64,8 @@
       "b2"
     ],
     "tier": "first-party",
-    "pricing": "free"
+    "pricing": "free",
+    "icon": "icons/picode-backup-s3.svg"
   },
   {
     "id": "google-calendar",
@@ -127,7 +128,8 @@
       "inbox"
     ],
     "tier": "first-party",
-    "pricing": "free"
+    "pricing": "free",
+    "icon": "icons/picode-mail-microsoft.svg"
   },
   {
     "id": "picode-tunnel-tailscale",
@@ -265,7 +267,8 @@
       "fast-decisions"
     ],
     "tier": "first-party",
-    "pricing": "free"
+    "pricing": "free",
+    "icon": "icons/picode-decisions-local.svg"
   },
   {
     "id": "picode-decisions-jev",
@@ -279,7 +282,8 @@
       "jev"
     ],
     "tier": "first-party",
-    "pricing": "free"
+    "pricing": "free",
+    "icon": "icons/picode-decisions-jev.svg"
   },
   {
     "id": "atlas",
