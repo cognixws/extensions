@@ -300,5 +300,21 @@
     "tier": "first-party",
     "pricing": "free",
     "icon": "icons/atlas.svg"
+  },
+  {
+    "id": "graphify",
+    "name": "Graphify",
+    "publisher": "COGNIX[WS]",
+    "description": "A local graph of a workspace's code, built with Graphify. Code stays on this machine.",
+    "repo": "https://github.com/cognixws/picode-graphify",
+    "ref": "v0.1.0",
+    "tags": [
+      "code",
+      "graph",
+      "agent"
+    ],
+    "icon": "icons/graphify.svg",
+    "tier": "first-party",
+    "pricing": "free"
   }
 ]
