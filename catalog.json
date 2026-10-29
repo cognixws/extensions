@@ -307,7 +307,7 @@
     "publisher": "COGNIX[WS]",
     "description": "A local graph of a workspace's code, built with Graphify. Code stays on this machine.",
     "repo": "https://github.com/cognixws/picode-graphify",
-    "ref": "v0.1.2",
+    "ref": "v0.1.3",
     "tags": [
       "code",
       "graph",
