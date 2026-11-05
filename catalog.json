@@ -302,6 +302,38 @@
     "icon": "icons/atlas.svg"
   },
   {
+    "id": "graphify",
+    "name": "Graphify",
+    "publisher": "COGNIX[WS]",
+    "description": "A local graph of a workspace's code, built with Graphify. Code stays on this machine.",
+    "repo": "https://github.com/cognixws/picode-graphify",
+    "ref": "v0.1.4",
+    "tags": [
+      "code",
+      "graph",
+      "agent"
+    ],
+    "icon": "icons/graphify.svg",
+    "tier": "first-party",
+    "pricing": "free"
+  },
+  {
+    "id": "bring-agents",
+    "name": "Bring agents",
+    "publisher": "COGNIX[WS]",
+    "description": "Bring assistants from OpenClaw or Hermes Agent: instructions, skills, notes and scheduled tasks. Reads only; keys stay behind.",
+    "repo": "https://github.com/cognixws/picode-bring-agents",
+    "ref": "v0.1.0",
+    "tags": [
+      "assistants",
+      "import",
+      "migration"
+    ],
+    "icon": "icons/bring-agents.svg",
+    "tier": "first-party",
+    "pricing": "free"
+  },
+  {
     "id": "picode-office",
     "name": "Office files",
     "publisher": "COGNIX[WS]",
