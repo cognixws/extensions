@@ -355,7 +355,7 @@
     "publisher": "COGNIX[WS]",
     "description": "Gives every agent your project's dev rite: the checks a change needs, what is owed before it lands, landing through Merge, and protection for main.",
     "repo": "https://github.com/cognixws/picode-devflow",
-    "ref": "v0.6.2",
+    "ref": "v0.7.0",
     "tags": [
       "development",
       "git",
