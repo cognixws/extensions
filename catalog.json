@@ -339,7 +339,7 @@
     "publisher": "COGNIX[WS]",
     "description": "Draws spreadsheet artifacts: an agent publishes an .xlsx and it opens in a spreadsheet view beside you, sheets included.",
     "repo": "https://github.com/cognixws/picode-office",
-    "ref": "v0.1.4",
+    "ref": "v0.3.0",
     "tags": [
       "spreadsheet",
       "xlsx",
