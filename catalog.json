@@ -4,7 +4,7 @@
     "name": "Docker",
     "publisher": "PiCode",
     "description": "See and manage your Docker containers, grouped by compose project, from PiCode.",
-    "repo": "https://github.com/cognixws/picode-docker",
+    "repo": "https://github.com/cognixws/cognix-docker",
     "ref": "v0.2.4",
     "tags": [
       "docker",
@@ -20,7 +20,7 @@
     "name": "More storage (rclone)",
     "publisher": "COGNIX[WS]",
     "description": "Keeps encrypted copies of your COGNIX[WS] backups in Dropbox, OneDrive, an SFTP server or WebDAV through rclone.",
-    "repo": "https://github.com/cognixws/picode-backup-rclone",
+    "repo": "https://github.com/cognixws/cognix-backup-rclone",
     "ref": "v0.1.1",
     "tags": [
       "backup",
@@ -38,7 +38,7 @@
     "name": "Google Drive",
     "publisher": "COGNIX[WS]",
     "description": "Keeps encrypted copies of your COGNIX[WS] backups in your Google Drive, in a “COGNIX[WS] backups” folder.",
-    "repo": "https://github.com/cognixws/picode-backup-gdrive",
+    "repo": "https://github.com/cognixws/cognix-backup-gdrive",
     "ref": "v0.1.0",
     "tags": [
       "backup",
@@ -54,7 +54,7 @@
     "name": "S3-compatible storage",
     "publisher": "COGNIX[WS]",
     "description": "Keeps encrypted copies of your COGNIX[WS] backups in an S3 bucket: R2, B2, Wasabi, MinIO, AWS S3 or any S3-compatible storage.",
-    "repo": "https://github.com/cognixws/picode-backup-s3",
+    "repo": "https://github.com/cognixws/cognix-backup-s3",
     "ref": "v0.1.1",
     "tags": [
       "backup",
@@ -72,7 +72,7 @@
     "name": "Google Calendar",
     "publisher": "COGNIX[WS]",
     "description": "Keeps your COGNIX[WS] Agenda in step with Google Calendar, both ways: events flow in with alerts, and Agenda changes go to Google.",
-    "repo": "https://github.com/cognixws/picode-google-calendar",
+    "repo": "https://github.com/cognixws/cognix-google-calendar",
     "ref": "v0.1.1",
     "tags": [
       "calendar",
@@ -88,7 +88,7 @@
     "name": "Telegram",
     "publisher": "COGNIX[WS]",
     "description": "Telegram channel for COGNIX[WS]: Inbox and agent Messages in one private chat.",
-    "repo": "https://github.com/cognixws/picode-telegram",
+    "repo": "https://github.com/cognixws/cognix-telegram",
     "ref": "v0.4.0",
     "tags": [
       "telegram",
@@ -104,7 +104,7 @@
     "name": "Google Mail",
     "publisher": "COGNIX[WS]",
     "description": "Google Mail and Workspace adapter for the COGNIX[WS] Inbox.",
-    "repo": "https://github.com/cognixws/picode-mail-google",
+    "repo": "https://github.com/cognixws/cognix-mail-google",
     "ref": "v0.2.1",
     "tags": [
       "mail",
@@ -120,7 +120,7 @@
     "name": "Outlook and Microsoft 365",
     "publisher": "COGNIX[WS]",
     "description": "Outlook and Microsoft 365 adapter for the COGNIX[WS] Inbox.",
-    "repo": "https://github.com/cognixws/picode-mail-microsoft",
+    "repo": "https://github.com/cognixws/cognix-mail-microsoft",
     "ref": "v0.2.1",
     "tags": [
       "mail",
@@ -136,7 +136,7 @@
     "name": "picode-tunnel-tailscale",
     "publisher": "COGNIX[WS]",
     "description": "Reach COGNIX[WS] from any network at this computer's Tailscale MagicDNS name.",
-    "repo": "https://github.com/cognixws/picode-tunnel-tailscale",
+    "repo": "https://github.com/cognixws/cognix-tunnel-tailscale",
     "ref": "v0.1.1",
     "tags": [
       "tunnel",
@@ -152,7 +152,7 @@
     "name": "picode-tunnel-cloudflare",
     "publisher": "COGNIX[WS]",
     "description": "Reach COGNIX[WS] from any network through your own Cloudflare Tunnel address.",
-    "repo": "https://github.com/cognixws/picode-tunnel-cloudflare",
+    "repo": "https://github.com/cognixws/cognix-tunnel-cloudflare",
     "ref": "v0.1.1",
     "tags": [
       "tunnel",
@@ -168,7 +168,7 @@
     "name": "Blender",
     "publisher": "COGNIX[WS]",
     "description": "Model in Blender with your agents: they build the scene, render it and look at the result.",
-    "repo": "https://github.com/cognixws/picode-blender",
+    "repo": "https://github.com/cognixws/cognix-blender",
     "ref": "v0.4.1",
     "tags": [
       "blender",
@@ -183,7 +183,7 @@
     "name": "PhotoCraft & VectorCraft",
     "publisher": "COGNIX[WS]",
     "description": "Let your agents work in PhotoCraft and VectorCraft while you watch.",
-    "repo": "https://github.com/cognixws/picode-artcraft",
+    "repo": "https://github.com/cognixws/cognix-artcraft",
     "ref": "v0.6.0",
     "tags": [
       "design",
@@ -198,7 +198,7 @@
     "name": "Crawler",
     "publisher": "COGNIX[WS]",
     "description": "A small procedural creature that walks over a page while an agent works on it.",
-    "repo": "https://github.com/cognixws/picode-crawler",
+    "repo": "https://github.com/cognixws/cognix-crawler",
     "ref": "v0.1.3",
     "tags": [
       "web",
@@ -213,7 +213,7 @@
     "name": "Wrapup",
     "publisher": "COGNIX[WS]",
     "description": "Agents close a block of work with a status report in checks: done, caveat, pending with you.",
-    "repo": "https://github.com/cognixws/picode-wrapup",
+    "repo": "https://github.com/cognixws/cognix-wrapup",
     "ref": "v0.1.1",
     "tags": [
       "reporting",
@@ -228,7 +228,7 @@
     "name": "REA",
     "publisher": "COGNIX[WS]",
     "description": "Reverse engineer shipped apps with REA 6.1.0: Electron routes and IPC, APKs, .NET, native binaries. Static analysis only.",
-    "repo": "https://github.com/cognixws/picode-rea",
+    "repo": "https://github.com/cognixws/cognix-rea",
     "ref": "v0.4.0",
     "tags": [
       "reverse-engineering",
@@ -243,7 +243,7 @@
     "name": "Cloudflare Pages",
     "publisher": "COGNIX[WS]",
     "description": "Publish artifact versions to Cloudflare Pages with public or email-restricted access, Web Analytics, update and restore.",
-    "repo": "https://github.com/cognixws/picode-cloudflare-pages",
+    "repo": "https://github.com/cognixws/cognix-cloudflare-pages",
     "ref": "v0.4.1",
     "tags": [
       "publish",
@@ -259,7 +259,7 @@
     "name": "Local model fast decisions",
     "publisher": "COGNIX[WS]",
     "description": "Answers COGNIX[WS]'s fast decisions with a model on this computer (llama.cpp, Ollama, LM Studio). Nothing leaves this computer.",
-    "repo": "https://github.com/cognixws/picode-decisions-local",
+    "repo": "https://github.com/cognixws/cognix-decisions-local",
     "ref": "v0.1.0",
     "tags": [
       "local",
@@ -275,7 +275,7 @@
     "name": "Jev fast decisions",
     "publisher": "COGNIX[WS]",
     "description": "Answers COGNIX[WS]'s fast decisions with TypeSafe's Jev: locate a page element, yes/no questions. Sends page text and a screenshot.",
-    "repo": "https://github.com/cognixws/picode-decisions-jev",
+    "repo": "https://github.com/cognixws/cognix-decisions-jev",
     "ref": "v0.1.1",
     "tags": [
       "fast-decisions",
@@ -290,7 +290,7 @@
     "name": "Atlas",
     "publisher": "COGNIX[WS]",
     "description": "Photographs every screen of a web app, empty and with data, light and dark, as a gallery and an app map. First run downloads Chromium.",
-    "repo": "https://github.com/cognixws/picode-atlas",
+    "repo": "https://github.com/cognixws/cognix-atlas",
     "ref": "v0.1.1",
     "tags": [
       "qa",
@@ -306,7 +306,7 @@
     "name": "Graphify",
     "publisher": "COGNIX[WS]",
     "description": "A local graph of a workspace's code, built with Graphify. Code stays on this machine.",
-    "repo": "https://github.com/cognixws/picode-graphify",
+    "repo": "https://github.com/cognixws/cognix-graphify",
     "ref": "v0.1.4",
     "tags": [
       "code",
@@ -322,7 +322,7 @@
     "name": "Bring agents",
     "publisher": "COGNIX[WS]",
     "description": "Bring assistants from OpenClaw or Hermes Agent: instructions, skills, notes and scheduled tasks. Reads only; keys stay behind.",
-    "repo": "https://github.com/cognixws/picode-bring-agents",
+    "repo": "https://github.com/cognixws/cognix-bring-agents",
     "ref": "v0.1.0",
     "tags": [
       "assistants",
@@ -338,7 +338,7 @@
     "name": "Office files",
     "publisher": "COGNIX[WS]",
     "description": "Draws spreadsheet artifacts: an agent publishes an .xlsx and it opens in a spreadsheet view beside you, sheets included.",
-    "repo": "https://github.com/cognixws/picode-office",
+    "repo": "https://github.com/cognixws/cognix-office",
     "ref": "v0.3.6",
     "tags": [
       "spreadsheet",
