@@ -184,7 +184,7 @@
     "publisher": "COGNIX[WS]",
     "description": "Let your agents work in PhotoCraft and VectorCraft while you watch.",
     "repo": "https://github.com/cognixws/picode-artcraft",
-    "ref": "v0.6.1",
+    "ref": "v0.6.0",
     "tags": [
       "design",
       "image"
