@@ -16,12 +16,12 @@
     "pricing": "free"
   },
   {
-    "id": "picode-backup-rclone",
+    "id": "backup-rclone",
     "name": "More storage (rclone)",
     "publisher": "COGNIX[WS]",
     "description": "Keeps encrypted copies of your COGNIX[WS] backups in Dropbox, OneDrive, an SFTP server or WebDAV through rclone.",
     "repo": "https://github.com/cognixws/cognix-backup-rclone",
-    "ref": "v0.1.1",
+    "ref": "v0.1.2",
     "tags": [
       "backup",
       "storage",
@@ -34,12 +34,12 @@
     "pricing": "free"
   },
   {
-    "id": "picode-backup-gdrive",
+    "id": "backup-gdrive",
     "name": "Google Drive",
     "publisher": "COGNIX[WS]",
     "description": "Keeps encrypted copies of your COGNIX[WS] backups in your Google Drive, in a “COGNIX[WS] backups” folder.",
     "repo": "https://github.com/cognixws/cognix-backup-gdrive",
-    "ref": "v0.1.0",
+    "ref": "v0.1.1",
     "tags": [
       "backup",
       "storage",
@@ -50,12 +50,12 @@
     "pricing": "free"
   },
   {
-    "id": "picode-backup-s3",
+    "id": "backup-s3",
     "name": "S3-compatible storage",
     "publisher": "COGNIX[WS]",
     "description": "Keeps encrypted copies of your COGNIX[WS] backups in an S3 bucket: R2, B2, Wasabi, MinIO, AWS S3 or any S3-compatible storage.",
     "repo": "https://github.com/cognixws/cognix-backup-s3",
-    "ref": "v0.1.1",
+    "ref": "v0.1.2",
     "tags": [
       "backup",
       "storage",
@@ -100,12 +100,12 @@
     "icon": "icons/telegram.svg"
   },
   {
-    "id": "picode-mail-google",
+    "id": "mail-google",
     "name": "Google Mail",
     "publisher": "COGNIX[WS]",
     "description": "Google Mail and Workspace adapter for the COGNIX[WS] Inbox.",
     "repo": "https://github.com/cognixws/cognix-mail-google",
-    "ref": "v0.2.1",
+    "ref": "v0.2.2",
     "tags": [
       "mail",
       "google",
@@ -116,12 +116,12 @@
     "icon": "icons/picode-mail-google.png"
   },
   {
-    "id": "picode-mail-microsoft",
+    "id": "mail-microsoft",
     "name": "Outlook and Microsoft 365",
     "publisher": "COGNIX[WS]",
     "description": "Outlook and Microsoft 365 adapter for the COGNIX[WS] Inbox.",
     "repo": "https://github.com/cognixws/cognix-mail-microsoft",
-    "ref": "v0.2.1",
+    "ref": "v0.2.2",
     "tags": [
       "mail",
       "outlook",
@@ -132,12 +132,12 @@
     "icon": "icons/picode-mail-microsoft.svg"
   },
   {
-    "id": "picode-tunnel-tailscale",
-    "name": "picode-tunnel-tailscale",
+    "id": "tunnel-tailscale",
+    "name": "Tailscale",
     "publisher": "COGNIX[WS]",
     "description": "Reach COGNIX[WS] from any network at this computer's Tailscale MagicDNS name.",
     "repo": "https://github.com/cognixws/cognix-tunnel-tailscale",
-    "ref": "v0.1.1",
+    "ref": "v0.1.2",
     "tags": [
       "tunnel",
       "remote",
@@ -148,12 +148,12 @@
     "icon": "icons/picode-tunnel-tailscale.svg"
   },
   {
-    "id": "picode-tunnel-cloudflare",
-    "name": "picode-tunnel-cloudflare",
+    "id": "tunnel-cloudflare",
+    "name": "Cloudflare Tunnel",
     "publisher": "COGNIX[WS]",
     "description": "Reach COGNIX[WS] from any network through your own Cloudflare Tunnel address.",
     "repo": "https://github.com/cognixws/cognix-tunnel-cloudflare",
-    "ref": "v0.1.1",
+    "ref": "v0.1.2",
     "tags": [
       "tunnel",
       "remote",
@@ -255,12 +255,12 @@
     "icon": "icons/cloudflare-pages.png"
   },
   {
-    "id": "picode-decisions-local",
+    "id": "decisions-local",
     "name": "Local model fast decisions",
     "publisher": "COGNIX[WS]",
     "description": "Answers COGNIX[WS]'s fast decisions with a model on this computer (llama.cpp, Ollama, LM Studio). Nothing leaves this computer.",
     "repo": "https://github.com/cognixws/cognix-decisions-local",
-    "ref": "v0.1.0",
+    "ref": "v0.1.1",
     "tags": [
       "local",
       "llm",
@@ -271,12 +271,12 @@
     "icon": "icons/picode-decisions-local.svg"
   },
   {
-    "id": "picode-decisions-jev",
+    "id": "decisions-jev",
     "name": "Jev fast decisions",
     "publisher": "COGNIX[WS]",
     "description": "Answers COGNIX[WS]'s fast decisions with TypeSafe's Jev: locate a page element, yes/no questions. Sends page text and a screenshot.",
     "repo": "https://github.com/cognixws/cognix-decisions-jev",
-    "ref": "v0.1.1",
+    "ref": "v0.1.2",
     "tags": [
       "fast-decisions",
       "jev"
@@ -334,12 +334,12 @@
     "pricing": "free"
   },
   {
-    "id": "picode-office",
+    "id": "office",
     "name": "Office files",
     "publisher": "COGNIX[WS]",
     "description": "Draws spreadsheet artifacts: an agent publishes an .xlsx and it opens in a spreadsheet view beside you, sheets included.",
     "repo": "https://github.com/cognixws/cognix-office",
-    "ref": "v0.3.6",
+    "ref": "v0.3.7",
     "tags": [
       "spreadsheet",
       "xlsx",
