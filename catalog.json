@@ -371,6 +371,24 @@
     "pricing": "free"
   },
   {
+    "id": "board",
+    "name": "Board",
+    "publisher": "COGNIX[WS]",
+    "description": "Each workspace's work in flight on one board that agents claim, note and move: what waits for you, what is ready to land, and GitHub issues synced in.",
+    "repo": "https://github.com/cognixws/cognix-board",
+    "ref": "v0.14.1",
+    "tags": [
+      "board",
+      "tasks",
+      "agents",
+      "github",
+      "workflow"
+    ],
+    "icon": "icons/board.svg",
+    "tier": "first-party",
+    "pricing": "free"
+  },
+  {
     "id": "games",
     "name": "Games Arena",
     "publisher": "COGNIX[WS]",
