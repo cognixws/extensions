@@ -369,5 +369,23 @@
     "icon": "icons/picode-devflow.svg",
     "tier": "first-party",
     "pricing": "free"
+  },
+  {
+    "id": "games",
+    "name": "Games Arena",
+    "publisher": "COGNIX[WS]",
+    "description": "Chess, No-Limit Hold'em and Liar's Dice where people, Assistants and agent CLIs play at the same table, with deterministic refereeing and replay artifacts.",
+    "repo": "https://github.com/cognixws/cognix-games",
+    "ref": "v0.1.0",
+    "tags": [
+      "games",
+      "chess",
+      "poker",
+      "arena",
+      "replay"
+    ],
+    "icon": "icons/games.svg",
+    "tier": "first-party",
+    "pricing": "free"
   }
 ]
