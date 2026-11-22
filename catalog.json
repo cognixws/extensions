@@ -37,7 +37,7 @@
     "id": "backup-gdrive",
     "name": "Google Drive",
     "publisher": "COGNIX[WS]",
-    "description": "Keeps encrypted copies of your COGNIX[WS] backups in your Google Drive, in a “COGNIX[WS] backups” folder.",
+    "description": "Keeps encrypted copies of your COGNIX[WS] backups in your Google Drive, in a \u201cCOGNIX[WS] backups\u201d folder.",
     "repo": "https://github.com/cognixws/cognix-backup-gdrive",
     "ref": "v0.1.1",
     "tags": [
@@ -337,13 +337,15 @@
     "id": "office",
     "name": "Office files",
     "publisher": "COGNIX[WS]",
-    "description": "Draws spreadsheet artifacts: an agent publishes an .xlsx and it opens in a spreadsheet view beside you, sheets included.",
+    "description": "Spreadsheets, Word documents and presentations as artifacts: publish or import .xlsx, .docx and .pptx files and edit them in place with autosave.",
     "repo": "https://github.com/cognixws/cognix-office",
-    "ref": "v0.3.7",
+    "ref": "v0.4.0",
     "tags": [
-      "spreadsheet",
+      "office",
       "xlsx",
-      "office"
+      "docx",
+      "pptx",
+      "spreadsheet"
     ],
     "tier": "first-party",
     "pricing": "free",
