@@ -394,7 +394,7 @@
     "publisher": "COGNIX[WS]",
     "description": "Chess, No-Limit Hold'em and Liar's Dice where people, Assistants and agent CLIs play at the same table, with deterministic refereeing and replay artifacts.",
     "repo": "https://github.com/cognixws/cognix-games",
-    "ref": "v0.1.4",
+    "ref": "v0.1.5",
     "tags": [
       "games",
       "chess",
