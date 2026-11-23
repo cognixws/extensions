@@ -358,7 +358,7 @@
     "publisher": "COGNIX[WS]",
     "description": "Gives every agent your project's dev rite: the checks a change needs, what is owed before it lands, landing through Merge, and protection for main.",
     "repo": "https://github.com/cognixws/cognix-devflow",
-    "ref": "v0.10.1",
+    "ref": "v0.11.0",
     "tags": [
       "development",
       "git",
