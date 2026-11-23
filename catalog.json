@@ -245,7 +245,7 @@
     "publisher": "COGNIX[WS]",
     "description": "Publish artifact versions to Cloudflare Pages with public or email-restricted access, Web Analytics, update and restore.",
     "repo": "https://github.com/cognixws/cognix-cloudflare-pages",
-    "ref": "v0.4.1",
+    "ref": "v0.5.0",
     "tags": [
       "publish",
       "cloudflare",
