@@ -344,5 +344,21 @@
     "icon": "icons/games.svg",
     "tier": "first-party",
     "pricing": "free"
+  },
+  {
+    "id": "processes",
+    "name": "Processes",
+    "publisher": "COGNIX[WS]",
+    "description": "Processes on this machine in the bottom dock, with the agent or workspace that owns each one.",
+    "repo": "https://github.com/cognixws/cognix-processes",
+    "ref": "v0.2.0",
+    "tags": [
+      "processes",
+      "system",
+      "monitor"
+    ],
+    "icon": "icons/processes.svg",
+    "tier": "first-party",
+    "pricing": "free"
   }
 ]
