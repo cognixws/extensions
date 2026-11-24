@@ -195,36 +195,6 @@
     "icon": "icons/artcraft.svg"
   },
   {
-    "id": "wrapup",
-    "name": "Wrapup",
-    "publisher": "COGNIX[WS]",
-    "description": "Agents close a block of work with a status report in checks: done, caveat, pending with you.",
-    "repo": "https://github.com/cognixws/cognix-wrapup",
-    "ref": "v0.1.1",
-    "tags": [
-      "reporting",
-      "agents"
-    ],
-    "tier": "first-party",
-    "pricing": "free",
-    "icon": "icons/wrapup.svg"
-  },
-  {
-    "id": "rea",
-    "name": "REA",
-    "publisher": "COGNIX[WS]",
-    "description": "Reverse engineer shipped apps with REA 6.1.0: Electron routes and IPC, APKs, .NET, native binaries. Static analysis only.",
-    "repo": "https://github.com/cognixws/cognix-rea",
-    "ref": "v0.4.0",
-    "tags": [
-      "reverse-engineering",
-      "analysis"
-    ],
-    "tier": "first-party",
-    "pricing": "free",
-    "icon": "icons/rea.svg"
-  },
-  {
     "id": "cloudflare-pages",
     "name": "Cloudflare Pages",
     "publisher": "COGNIX[WS]",
@@ -286,22 +256,6 @@
     "tier": "first-party",
     "pricing": "free",
     "icon": "icons/atlas.svg"
-  },
-  {
-    "id": "graphify",
-    "name": "Graphify",
-    "publisher": "COGNIX[WS]",
-    "description": "A local graph of a workspace's code, built with Graphify. Code stays on this machine.",
-    "repo": "https://github.com/cognixws/cognix-graphify",
-    "ref": "v0.1.4",
-    "tags": [
-      "code",
-      "graph",
-      "agent"
-    ],
-    "icon": "icons/graphify.svg",
-    "tier": "first-party",
-    "pricing": "free"
   },
   {
     "id": "bring-agents",
