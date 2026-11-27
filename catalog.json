@@ -5,7 +5,7 @@
     "publisher": "COGNIX[WS]",
     "description": "Manage local Docker stacks and containers with your agents: Compose deploys, multiplexed logs, health monitors, diagnosis and reviewed cleanup.",
     "repo": "https://github.com/cognixws/cognix-docker",
-    "ref": "v2.0.0",
+    "ref": "v2.1.0",
     "tags": [
       "docker",
       "containers",
