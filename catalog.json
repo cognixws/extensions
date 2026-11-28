@@ -198,9 +198,9 @@
     "id": "cloudflare-pages",
     "name": "Cloudflare Pages",
     "publisher": "COGNIX[WS]",
-    "description": "Publish artifact versions to Cloudflare Pages with public or email-restricted access, Web Analytics, update and restore.",
+    "description": "Publish artifact versions to Cloudflare Pages with public or email-restricted access, Web Analytics, update and restore, custom domains, Keep up to date and 7-day visits.",
     "repo": "https://github.com/cognixws/cognix-cloudflare-pages",
-    "ref": "v0.5.1",
+    "ref": "v0.6.0",
     "tags": [
       "publish",
       "cloudflare",
